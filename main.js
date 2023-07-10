@@ -59,16 +59,16 @@ function play() {
 
     if(gameOver==true) {
         playButton.disabled=true;
+        resultArea.textContent="실패하셨습니다ㅠㅠ"
     }
 }
 
 function reset() {
     //user input 정리 
     userInput.value = ""
-    //Go버튼 살리기
-    playButton.disabled=false;
-    //다시 시작
-    randomNum()
+     //다시 시작
+     randomNum()
+    
 }
 
 
