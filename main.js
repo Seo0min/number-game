@@ -55,11 +55,11 @@ function play() {
 
     if(chances<1) {
         gameOver=true
+        resultArea.textContent="실패하셨습니다ㅠㅠ"
     }
 
     if(gameOver==true) {
         playButton.disabled=true;
-        resultArea.textContent="실패하셨습니다ㅠㅠ"
     }
 }
 
